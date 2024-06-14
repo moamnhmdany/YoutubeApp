@@ -77,7 +77,9 @@ class _MyAppState extends State<MyApp> {
                   BoxDecoration(border: Border.all(color: Colors.blueAccent)),
               child: InAppWebView(
                 initialUrlRequest: URLRequest(url: Yurl),
+                
                 initialOptions: InAppWebViewGroupOptions(
+
                     crossPlatform: InAppWebViewOptions(
                   javaScriptEnabled: true,
                 )),
